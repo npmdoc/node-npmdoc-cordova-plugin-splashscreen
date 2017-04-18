@@ -1,9 +1,14 @@
-# api documentation for  [cordova-plugin-splashscreen (v4.0.2)](https://github.com/apache/cordova-plugin-splashscreen#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-splashscreen.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-splashscreen) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-splashscreen.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-splashscreen)
+# npmdoc-cordova-plugin-splashscreen
+
+#### api documentation for  [cordova-plugin-splashscreen (v4.0.2)](https://github.com/apache/cordova-plugin-splashscreen#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-splashscreen.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-splashscreen) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-splashscreen.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-splashscreen)
+
 #### Cordova Splashscreen Plugin
 
-[![NPM](https://nodei.co/npm/cordova-plugin-splashscreen.png?downloads=true)](https://www.npmjs.com/package/cordova-plugin-splashscreen)
+[![NPM](https://nodei.co/npm/cordova-plugin-splashscreen.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cordova-plugin-splashscreen)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-cordova-plugin-splashscreen/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-cordova-plugin-splashscreen_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cordova-plugin-splashscreen/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-cordova-plugin-splashscreen/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-cordova-plugin-splashscreen/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-cordova-plugin-splashscreen/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cordova-plugin-splashscreen/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-cordova-plugin-splashscreen/build/screenCapture.npmPackageListing.svg)
 
@@ -78,37 +83,29 @@
     "license": "Apache-2.0",
     "maintainers": [
         {
-            "name": "bowserj",
-            "email": "bowserj@apache.org"
+            "name": "bowserj"
         },
         {
-            "name": "csantanapr",
-            "email": "csantana23@gmail.com"
+            "name": "csantanapr"
         },
         {
-            "name": "filmaj",
-            "email": "maj.fil@gmail.com"
+            "name": "filmaj"
         },
         {
-            "name": "kotikov.vladimir",
-            "email": "kotikov.vladimir@gmail.com"
+            "name": "kotikov.vladimir"
         },
         {
-            "name": "purplecabbage",
-            "email": "purplecabbage@gmail.com"
+            "name": "purplecabbage"
         },
         {
-            "name": "shazron",
-            "email": "shazron@gmail.com"
+            "name": "shazron"
         },
         {
-            "name": "stevegill",
-            "email": "stevengill97@gmail.com"
+            "name": "stevegill"
         }
     ],
     "name": "cordova-plugin-splashscreen",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/apache/cordova-plugin-splashscreen.git"
@@ -121,16 +118,6 @@
     "version": "4.0.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module cordova-plugin-splashscreen](#apidoc.module.cordova-plugin-splashscreen)
-
-
-
-# <a name="apidoc.module.cordova-plugin-splashscreen"></a>[module cordova-plugin-splashscreen](#apidoc.module.cordova-plugin-splashscreen)
 
 
 
