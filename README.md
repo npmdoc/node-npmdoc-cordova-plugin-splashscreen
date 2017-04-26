@@ -1,6 +1,6 @@
 # npmdoc-cordova-plugin-splashscreen
 
-#### api documentation for  [cordova-plugin-splashscreen (v4.0.2)](https://github.com/apache/cordova-plugin-splashscreen#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-splashscreen.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-splashscreen) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-splashscreen.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-splashscreen)
+#### basic api documentation for  [cordova-plugin-splashscreen (v4.0.2)](https://github.com/apache/cordova-plugin-splashscreen#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-splashscreen.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-splashscreen) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-splashscreen.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-splashscreen)
 
 #### Cordova Splashscreen Plugin
 
@@ -115,7 +115,8 @@
         "test": "npm run jshint"
     },
     "types": "./types/index.d.ts",
-    "version": "4.0.2"
+    "version": "4.0.2",
+    "bin": {}
 }
 ```
 
