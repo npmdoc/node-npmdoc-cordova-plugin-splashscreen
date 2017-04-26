@@ -54,12 +54,116 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-splashscreen">module cordova-plugin-splashscreen</a><ol>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cordova-plugin-splashscreen.</span>index</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-splashscreen.index">module cordova-plugin-splashscreen.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-splashscreen.index.hide">
+            function <span class="apidocSignatureSpan">cordova-plugin-splashscreen.index.</span>hide
+            <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-splashscreen.index.show">
+            function <span class="apidocSignatureSpan">cordova-plugin-splashscreen.index.</span>show
+            <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.cordova-plugin-splashscreen" id="apidoc.module.cordova-plugin-splashscreen">module cordova-plugin-splashscreen</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-splashscreen.index" id="apidoc.module.cordova-plugin-splashscreen.index">module cordova-plugin-splashscreen.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-splashscreen.index.hide" id="apidoc.element.cordova-plugin-splashscreen.index.hide">
+        function <span class="apidocSignatureSpan">cordova-plugin-splashscreen.index.</span>hide
+        <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hide = function (success, fail, args, env) {
+    var result = new PluginResult(args, env);
+    window.qnx.webplatform.getApplication().windowVisible = true;
+    result.ok(undefined, false);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+Turning the fading off via `&lt;preference name="FadeSplashScreen" value="false"/&gt;` technically means
+ fading duration to be `0` so that in this example the overall splash delay will still be 3 seconds.
+
+_Note_: This only applies to the app startup - you need to take the fading timeout into account when manually showing/hiding the
+ splashscreen in the code:
+
+```javascript
+navigator.splashscreen.show();
+window.setTimeout(function () {
+    navigator.splashscreen.<span class="apidocCodeKeywordSpan">hide</span>();
+}, splashDuration - fadeDuration);
+```
+
+- `ShowSplashScreenSpinner` (boolean, defaults to `true`): Set to `false`
+  to hide the splash-screen spinner.
+
+```xml
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-splashscreen.index.show" id="apidoc.element.cordova-plugin-splashscreen.index.show">
+        function <span class="apidocSignatureSpan">cordova-plugin-splashscreen.index.</span>show
+        <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">show = function (success, fail, args, env) {
+    var result = new PluginResult(args, env);
+    result.error("Not supported on platform", false);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+- 00:03 - splashscreen is hidden
+
+Turning the fading off via `&lt;preference name="FadeSplashScreen" value="false"/&gt;` technically means
+ fading duration to be `0` so that in this example the overall splash delay will still be 3 seconds.
+
+_Note_: This only applies to the app startup - you need to take the fading timeout into account when manually showing/hiding the
+ splashscreen in the code:
+
+```javascript
+navigator.splashscreen.<span class="apidocCodeKeywordSpan">show</span>();
+window.setTimeout(function () {
+  navigator.splashscreen.hide();
+}, splashDuration - fadeDuration);
+```
+
+- `ShowSplashScreenSpinner` (boolean, defaults to `true`): Set to `false`
+to hide the splash-screen spinner.
+...</pre></li>
+    </ul>
+
 
 </div>
 
